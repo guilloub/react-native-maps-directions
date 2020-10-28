@@ -323,6 +323,7 @@ class MapViewDirections extends Component {
                   }, []),
             fare: route.fare,
             waypointOrder: route.waypoint_order,
+            json: json,
           });
         } else {
           return Promise.reject();
